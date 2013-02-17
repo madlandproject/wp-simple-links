@@ -1,17 +1,18 @@
 <?php 
 
-                      /**
-                       * Registers Post type
-                       * Creates a Meta Data box, Creates the fields and handles the saving
-                       * @author Mat Lipe <mat@lipeimagination.info>
-                       * @since 1.17.13
-                       * @uses Extend this class into the the class registering the post types
-                       * @uses Make sure to call a parent::__construct()
-                       * @uses Add class arrays named  %post_type&_meta_fields = array();
-                       * @example  protected $supplier_meta_fields = array();
-                       * @uses This will automatically have a callback to add data when the post type is registered. Remove in args if not needed
-                       * @package Mat's Framework
-                       */
+/**
+ * Registers Post type
+ * Creates a Meta Data box, Creates the fields and handles the saving
+ * @author Mat Lipe <mat@lipeimagination.info>
+ * @author Robin Lambell <robin@madlandproject.com>
+ * @since 1.17.13
+ * @uses Extend this class into the the class registering the post types
+ * @uses Make sure to call a parent::__construct()
+ * @uses Add class arrays named  %post_type&_meta_fields = array();
+ * @example  protected $supplier_meta_fields = array();
+ * @uses This will automatically have a callback to add data when the post type is registered. Remove in args if not needed
+ * @package Mat's Framework
+ */
 if( !class_exists( 'SL_post_type_tax' ) ){                     
 class SL_post_type_tax{
 	
@@ -188,7 +189,7 @@ class SL_post_type_tax{
 	
 		$postType = isset( $args['postType'] ) ? $args['postType'] : $sanitizedTitle;
 
-		register_post_type( $postType, $args );
+		register_post_type( $postType, apply_filters('wp-simple-links_cpt', $args) );
 	
 	}
 	
@@ -267,7 +268,7 @@ class SL_post_type_tax{
 	 */
 	function plural_title( $title ){
 	
-		return'y' == substr($title,-1) ? rtrim($title, 'y') . 'ies' : $title . 's';
+		return ('y' == substr($title,-1)) ? rtrim($title, 'y') . 'ies' : $title . 's';
 	
 	}
 	
