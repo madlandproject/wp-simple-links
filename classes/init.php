@@ -17,7 +17,7 @@ foreach( $simple_links_classes as $class ){
 	
 }
 
-$simple_links_func = new simple_links();
+$simple_links_func = new Simple_Links();
 
 
 

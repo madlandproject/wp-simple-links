@@ -9,8 +9,8 @@
                   * @uses $simple_links_func
                   */
 
-if( !class_exists( 'simple_links' ) ){
-class simple_links extends SL_post_type_tax{
+if( !class_exists('Simple_Links') ){
+class Simple_Links extends SL_post_type_tax{
 	
 	public $additional_fields = array();
 
@@ -41,14 +41,7 @@ class simple_links extends SL_post_type_tax{
 		
 		//Add the custom post type
 		add_action('init', array( $this, 'post_type' ) );
-		
-		//Add the jquery
-	    /**
-	     * Not used at the moment
-	     */
-		//add_action( 'wp_enqueue_scripts', array( $this, 'frontend_scripts') );
-	
-		
+
 		//Add the Link Categories
 		add_action( 'init', array( $this, 'link_categories' ) );
 		
@@ -614,15 +607,17 @@ class simple_links extends SL_post_type_tax{
 				                                           		),
 															'hierachical' => false,
 															'supports'	  => array( 'thumbnail','title','page-attributes','revisions' ),
-															'show_in_nav_menus'=> false,
-				                                            'has_archive' => false,
-															'rewrite'     => false,
+															'public' => true,
+                                                            'show_in_nav_menus'=> true,
+				                                            'has_archive' => true,
+															'rewrite'     => true,
 															'register_meta_box_cb' => array( $this, 'meta_box' )
 															
 				
 				
 				)
 		);
+
 	}
 	
 	

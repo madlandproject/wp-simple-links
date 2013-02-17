@@ -1,11 +1,11 @@
 <?php 
 /*
-Plugin Name: Simple Links
-Plugin URI: http://lipeimagination.info/wp-simple-links-docs/
+Plugin Name: WP Simple Links
+Plugin URI: https://github.com/madlandproject/wp-simple-links
 Description: Replacement for Wordpress Links Manager with many added features.
-Version: 1.6.2
-Author: Mat Lipe
-Author URI: http://lipeimagination.info
+Version: 0.1.0
+Author: Robin Lambell
+Author URI: http://madlandproject.com
 */
 
 
@@ -19,5 +19,26 @@ require( 'wp-simple-links-functions.php' );
 require( 'classes/init.php' );
 require( 'widgets/init.php');
 
+// Activation hooks
+
+register_activation_hook(__FILE__, 'activateWPSL');
+register_deactivation_hook(__FILE__, 'deactivateWPSL');
+register_uninstall_hook(__FILE__, 'uninstallWPSL');
+
+
+function activateWPSL(){
+    $plugin = new Simple_Links();
+    $plugin->post_type();
+
+    flush_rewrite_rules();
+}
+
+function deactivateWPSL(){
+    flush_rewrite_rules();
+}
+
+function uninstallWPSL(){
+
+}
 
 
