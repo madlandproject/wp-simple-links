@@ -1,0 +1,632 @@
+# Copyright (C) 2012 Simple Links
+# This file is distributed under the same license as the Simple Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Links 1.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-simple-links\n"
+"POT-Creation-Date: 2012-10-11 18:40:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/wp-simple-links-post-type-tax.php:143
+#: classes/wp-simple-links-post-type-tax.php:219
+msgid "Search %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:144
+#: classes/wp-simple-links-post-type-tax.php:220
+msgid "Popular %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:145
+#: classes/wp-simple-links-post-type-tax.php:221
+msgid "All %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:146
+#: classes/wp-simple-links-post-type-tax.php:222
+msgid "Parent %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:147
+#: classes/wp-simple-links-post-type-tax.php:223
+msgid "Parent %s:"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:148
+#: classes/wp-simple-links-post-type-tax.php:224
+msgid "Edit %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:149
+#: classes/wp-simple-links-post-type-tax.php:225
+msgid "Update %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:150
+#: classes/wp-simple-links-post-type-tax.php:156
+#: classes/wp-simple-links-post-type-tax.php:226
+msgid "Add New %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:151
+#: classes/wp-simple-links-post-type-tax.php:227
+msgid "New %s Name"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:152
+#: classes/wp-simple-links-post-type-tax.php:228
+msgid "Seperate %s with commas"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:153
+#: classes/wp-simple-links-post-type-tax.php:229
+msgid "Add or remove %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:154
+#: classes/wp-simple-links-post-type-tax.php:230
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:155
+msgid "View %s"
+msgstr ""
+
+#: classes/wp-simple-links-post-type-tax.php:157
+msgid "New %s"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:121
+msgid "Web Address"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:122 classes/wp-simple-links.class.php:528
+#: classes/wp-simple-links.class.php:530 classes/wp-simple-links.class.php:531
+msgid "Link Categories"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:167
+msgid "Show All %s"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:196
+msgid ""
+"You Can add a Simple Links List anywhere on the site by using the shortcode"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:198
+msgid "\"Comma separated list of Link Category Names\" - defaults to all"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:199
+msgid "\"Name or Random\" - defaults to link order"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:200
+msgid "\"DESC or ASC\" - defaults to ASC"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:201
+msgid "\"Number of links to show\""
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:202
+msgid "\"true or false\" - to show the link's image or not"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:203
+msgid "\"Any size built into Wordpress or your theme\" - default to thumbnail"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:204
+msgid "\"Comma separated list of the Link's Additional Fields to show\""
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:205
+msgid "\"true or false\" - to show the description - defaults to false"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:206
+msgid ""
+"\"Any characters to display between fields and description\" - defaults to "
+"\"-\""
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:207
+msgid "\"An optional id for the outputed list"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:210
+msgid ""
+"Look for the puzzle button on the post and page content editors for a form "
+"that generates the shortcode for you"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:217
+msgid ""
+"You May Add as Many Simple Links Widgets as You Would Like to Your Widget "
+"Areas"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:218
+msgid "Widget Options"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:219
+msgid "Select with link categories to pull from"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:220
+msgid "The Order in Which the Links will Display\" - defaults to link order"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:221
+msgid "The Order in which the links will Display"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:222
+msgid "Display the Link's Description"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:223
+msgid "Number of links to show"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:224
+msgid "Check the box to display the Link's Image"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:225
+msgid "The Size of Image to Show if the previous box is checked"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:226
+msgid "Display values from the Link's Additional Fields"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:227
+msgid ""
+"And characters to display between fields and description\" - defaults to "
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:255
+msgid ""
+"If they haven't already, Wordpress will be deprecating the built in links "
+"functionality"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:256
+msgid "These settings take care of cleaning up the Built In Links right now"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:257
+msgid ""
+"By Checking \"Remove the Built in Links\", the Links menu will disappear "
+"along with the add new Admin Bar link"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:258
+msgid ""
+"By Checking \"Replace Link Widgets with Simple Link Replica widgets, the "
+"Wordpress Link Widgets will automatically"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:259
+msgid ""
+" Pressing the \"Import Links\" button will automatically copy the Wordpress "
+"Links into Simple Links. Keep in mind if you press this button twice it will "
+"copy the links twice and you will have duplicates"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:265
+#: classes/wp-simple-links.admin.class.php:609
+msgid "Additional Fields"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:266
+msgid ""
+"You have the ability to add an unlimited number of additional fields to the "
+"links by click the \"Add Another\" button"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:267
+msgid ""
+"Once you save your changes, these fields will show up on a each link's "
+"editing page"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:268
+msgid ""
+"You will have the ability to select any of these fields to display using the "
+"Simple Links widgets"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:269
+msgid ""
+"Each widget gets it's own list of ALL the additional fields, so you may "
+"display different fields in different widget areas"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:270
+msgid ""
+"These fields will also be avaible by using the shortcode. For instance, if "
+"you wanted to display a field titled \"author\" and a field titled \"notes\" "
+"you shortcode would look something like this"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:277
+#: classes/wp-simple-links.admin.class.php:613
+msgid "Permissions"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:278
+msgid "This is where you decided how much access editors will have"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:279
+msgid ""
+"\"Hide Link Ordering from Editors\", will prevent editors from using the "
+"drag and drop ordering page. They will still be able to change the order on "
+"the individual Link editing Pages"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:280
+msgid ""
+"\"Show Simple Link Settings to Editors\" will allow editors to access the "
+"screen you are on right now without restriction"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:386
+msgid "Manage your Links Here. Enjoy"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:534
+msgid "Link Ordering"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:538 classes/wp-simple-links.class.php:439
+msgid "Settings"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:582
+msgid "These Settings Will Effect the built in Wordpress Links"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:584
+msgid "Remove Wordpress Built in Links"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:587
+msgid "Replace Link Widgets with \"Simple Links Replica\" widgets"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:592
+msgid "The links have been imported Successfully"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:593
+msgid "Import Links"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:611
+msgid "Wordpress Links"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:624
+msgid "These Settings Will Effect Access to this Plugins Features"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:626
+msgid "Hide Link Ordering From Editors"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:629
+msgid "Show Simple Link Settings to Editors"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:660
+msgid "Simple Links Settings"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:661
+msgid "Be sure to see the help menu for descriptions"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:708
+msgid ""
+"These Fields Will Be Available on All Link's Edit Screen, Widgets, and "
+"Shortcodes"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:723
+msgid "Field Name"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:729
+msgid "Add Another"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:764
+msgid "The Settings have been Updated!"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:783
+msgid "Keeping Your Links in Order"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:790
+msgid "Select a Link Category to Sort Links in that Category Only ( optional )"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:792
+msgid "All Categories"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:803
+msgid "To Sort by Link Categories, you must Add Some Links to them"
+msgstr ""
+
+#: classes/wp-simple-links.admin.class.php:804
+msgid "Follow Me"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:25
+msgid "Example"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:25
+msgid "DO NOT forget the"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:26
+msgid ""
+"This will be shown when someone hovers over the link, or optionally below "
+"the link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:27
+msgid "Choose the target frame for your link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:28
+msgid ""
+"Values entered in these fields will be available for shortcodes and Widgets"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:438
+msgid ""
+"You may add additonal fields which will be available for all links in the "
+msgstr ""
+
+#: classes/wp-simple-links.class.php:459
+msgid "new window or tab"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:462
+msgid "current window or tab, with no frames"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:465
+msgid "same window or tab"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:529
+msgid "Link Category"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:532
+msgid "Add New Category"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:533
+msgid "Update Category"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:573
+msgid "Link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:574
+msgid "All Links"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:575
+msgid "New Link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:576 classes/wp-simple-links.class.php:577
+msgid "Add Link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:578
+msgid "View Link"
+msgstr ""
+
+#: shortcode/shortcode-form.php:96
+msgid "This Will Generate the Shortcode to Display Simple Links"
+msgstr ""
+
+#: shortcode/shortcode-form.php:97
+msgid "If no links match the options chosen, this will not display anything"
+msgstr ""
+
+#: shortcode/shortcode-form.php:99
+msgid "Title (optional)"
+msgstr ""
+
+#: shortcode/shortcode-form.php:102 widgets/simple.links.main.widget.php:270
+msgid "Categories (optional)"
+msgstr ""
+
+#: shortcode/shortcode-form.php:112 widgets/simple.links.main.widget.php:278
+msgid "Number of Links"
+msgstr ""
+
+#: shortcode/shortcode-form.php:114
+msgid "All"
+msgstr ""
+
+#: shortcode/shortcode-form.php:123
+msgid "Order By (optional)"
+msgstr ""
+
+#: shortcode/shortcode-form.php:125 widgets/simple.links.main.widget.php:256
+msgid "Link Order"
+msgstr ""
+
+#: shortcode/shortcode-form.php:126 widgets/simple.links.main.widget.php:257
+msgid "Name"
+msgstr ""
+
+#: shortcode/shortcode-form.php:127 widgets/simple.links.main.widget.php:258
+#: widgets/simple.links.replica.php:94
+msgid "Random"
+msgstr ""
+
+#: shortcode/shortcode-form.php:131 widgets/simple.links.main.widget.php:289
+msgid "Show Description"
+msgstr ""
+
+#: shortcode/shortcode-form.php:134 widgets/simple.links.main.widget.php:295
+msgid "Show Image"
+msgstr ""
+
+#: shortcode/shortcode-form.php:136 widgets/simple.links.main.widget.php:301
+msgid "Image Size"
+msgstr ""
+
+#: shortcode/shortcode-form.php:145 widgets/simple.links.main.widget.php:311
+msgid "Include Additional Fields"
+msgstr ""
+
+#: shortcode/shortcode-form.php:148 widgets/simple.links.main.widget.php:314
+msgid "There have been no additional fields added"
+msgstr ""
+
+#: shortcode/shortcode-form.php:157 widgets/simple.links.main.widget.php:323
+msgid "Field Separator"
+msgstr ""
+
+#: shortcode/shortcode-form.php:158
+msgid "HTML is Allowed and Will show up Formatted in the Editor"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:41
+msgid "Displays a list of your Simple Links with options."
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:247
+msgid ""
+"Be sure the see the Help Section in the Top Right Corner of the Screen for "
+"Questions!"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:249
+msgid "Links Title"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:254
+msgid "Order Links By"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:262
+msgid "Order"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:264
+msgid "Acending"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:265
+msgid "Descending"
+msgstr ""
+
+#: widgets/simple.links.main.widget.php:324
+msgid "HTML is allowed"
+msgstr ""
+
+#: widgets/simple.links.replica.php:20
+msgid "Now that Wordpress' Links Manager has been Deprected, this widget will be removed from a future Version of Simple Links. It is time to make the switch. YOU HAVE BEEN WARNED."
+
+#: widgets/simple.links.replica.php:78
+msgid "Select Link Category:"
+msgstr ""
+
+
+#: widgets/simple.links.replica.php:89
+msgid "Sort by:"
+msgstr ""
+
+#: widgets/simple.links.replica.php:91
+msgid "Link title"
+msgstr ""
+
+#: widgets/simple.links.replica.php:92
+msgid "Link rating"
+msgstr ""
+
+#: widgets/simple.links.replica.php:93
+msgid "Link ID"
+msgstr ""
+
+#: widgets/simple.links.replica.php:99
+msgid "Show Link Image"
+msgstr ""
+
+#: widgets/simple.links.replica.php:101
+msgid "Show Link Name"
+msgstr ""
+
+#: widgets/simple.links.replica.php:103
+msgid "Show Link Description"
+msgstr ""
+
+#: widgets/simple.links.replica.php:105
+msgid "Show Link Rating"
+msgstr ""
+
+#: widgets/simple.links.replica.php:108
+msgid "Number of links to show:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Links"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://lipeimagination.info/wp-simple-links-docs/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Replacement for Wordpress Links Manager with many added features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mat Lipe"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://lipeimagination.info"
+msgstr ""
+
+
+#: widgets/simple.links.main.widget.php:302
+msgid "Remove Line Break Between Image and Link"
+msgstr ""
+
+#: shortcode/shortcode-form.php:144
+msgid "Remove Line Break Between Images and Links"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:491
+msgid "rel to this link"
+msgstr ""
+
+#: classes/wp-simple-links.class.php:491
+msgid "Add a"
+msgstr ""
