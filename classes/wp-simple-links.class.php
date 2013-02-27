@@ -49,10 +49,13 @@ class Simple_Links extends SL_post_type_tax{
 		//Setup the form output for the new button
 		add_filter('query_vars', array( $this, 'outside_page_query_var') );
 		add_action('template_redirect', array( $this, 'load_outside_page') );
-		
+
+        // hijack permalinks
+        add_filter('post_type_link', array($this, 'filter_permalink'), 1, 2);
+
 		//Bring in the shortcode
 		add_shortcode('wp-simple-links', array( $this, 'shortcode' ) );
-	
+
 	}
 	
 	
@@ -621,7 +624,15 @@ class Simple_Links extends SL_post_type_tax{
 	}
 	
 	
-	
+	function filter_permalink( $post_link, $post){
+
+        /*
+        print_r($post);
+        print_r($post_link);
+        */
+
+        return( get_post_meta($post->ID, 'web_address', true));
+    }
 	
 	
 	
